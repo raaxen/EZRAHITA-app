@@ -160,10 +160,11 @@ const styles = StyleSheet.create({
   // Glow
   glowCircle: {
     position: 'absolute',
-    width: AVATAR_SIZE + 140,
-    height: AVATAR_SIZE + 140,
-    borderRadius: (AVATAR_SIZE + 140) / 2,
+    width: AVATAR_SIZE + 120,
+    height: AVATAR_SIZE + 120,
+    borderRadius: (AVATAR_SIZE + 120) / 2,
     backgroundColor: `${ACCENT}18`,
+    alignSelf: 'center',
     zIndex: 0,
   },
 
