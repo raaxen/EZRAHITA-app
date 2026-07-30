@@ -1,0 +1,83 @@
+.Bg{
+    background-color: #1A120B;
+    width: 100%;
+    justify-content: center;
+    height: 100vh;
+    top:0;
+    display: flex;
+    justify-content: center;
+}
+
+.Container{
+    border: 2px solid var(--border-color);
+    height: 70vh;
+    margin-top:25ch;
+    position: relative;
+    width: 70%;
+    border-radius: 40px;
+    display: flex;
+    backdrop-filter: blur(20px);
+    flex-direction: row;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px black inset;
+    padding: 1ch;
+}
+
+.Container .Image{
+    object-fit: contain;
+    width: 50%;
+    backdrop-filter: blur(50px);
+    border-radius: 35px 35px 35px 35px ;
+    display: flex;
+    overflow: hidden;
+}
+
+.Container .Image img{
+    width: 85%;
+    margin: auto;
+}
+
+.About{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 5ch;
+}
+.About .Title{
+    display: flex;
+}
+.About .Title h1{
+    font-family: 'Italiana' ;
+    font-size: 4rem;
+    font-weight: 600;
+    margin: auto;
+    margin-top: 4ch;
+    color: var(--Main-Title);
+}
+.About .Title h1 span{
+    color: var(--hover-color);
+    font-size: 4.2rem;
+}
+.About .paragraph{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    gap: 5ch;
+} 
+
+.About .paragraph p{
+    color : var(--text-color);
+    font-family: 'Cormorant_Garamond';
+    font-size: 1.3rem;
+}
+
+.About .button{
+    display:flex;
+    gap: 1ch;
+}
+
+
+
+
+

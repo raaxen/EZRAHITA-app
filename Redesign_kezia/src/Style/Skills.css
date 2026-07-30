@@ -1,0 +1,71 @@
+.Skills {
+  height: 100vh;
+  background: var(--bg-color);
+  top: 0;
+}
+.Skills .div1{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 50%;
+  padding: 2ch;
+  border-bottom: solid  2px var(--hover-color);
+}
+.div1 p , h1{
+  margin: auto;
+}
+.div1 h1{
+  color: var(--text-color);
+  font-family: 'Italiana';
+  font-size: 3rem;
+}
+.div1 h1 span{
+  color: var(--hover-color);
+}
+.div1 p{
+  color: var(--hover-color);
+  font-size: 15px;
+}
+.div2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70vh;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 5ch;
+  padding: 1ch;
+}
+.outils_title h2 {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #8A7A6D;
+  margin: 0 0 20px;
+  margin-left: 4ch;
+}
+
+.outils_content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+  font-size: 16px;
+  margin-left: 4ch;
+}
+
+.outil-item {
+  color: #F5EFE6;
+  transition: color 0.2s;
+  cursor: default;
+  font-family: 'Cinzel';
+}
+
+.outil-item:hover {
+  color: #D68A4C;
+}
+
+.outil-separateur {
+  color: var(--hover-color);
+  font-size: 1.5rem;
+}

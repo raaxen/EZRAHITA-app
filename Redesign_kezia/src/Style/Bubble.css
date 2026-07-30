@@ -1,0 +1,30 @@
+.BubbleContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.bubble {
+  position: absolute;
+  bottom: -60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: float-up linear infinite;
+  background: rgba(214, 138, 76, 0.15);
+  border: 1px solid rgba(214, 138, 76, 0.4);
+  overflow: hidden;
+}
+
+@keyframes float-up {
+  0% { transform: translateY(0) translateX(0); opacity: 0; }
+  10% { opacity: 0.5; }
+  90% { opacity: 0.5; }
+  100% { transform: translateY(-110vh) translateX(15px); opacity: 0; }
+}
